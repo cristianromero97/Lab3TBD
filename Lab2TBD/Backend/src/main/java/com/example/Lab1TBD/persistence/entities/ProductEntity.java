@@ -15,4 +15,5 @@ public class ProductEntity {
     private Integer stock;         // Product stock
     private String product_status; // Product status (available, unavailable)
     private Long category_id;   // Category ID (FK)
+    private String images;      // String para la imagen
 }

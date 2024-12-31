@@ -66,7 +66,9 @@ public class DeliveryPointRepositoryImp implements DeliveryPointRepository {
     @Override
     public void updateStatusPoint(Long delivery_point_id, Boolean status) {
         try (org.sql2o.Connection con = sql2o.open()) {
-            con.createQuery("UPDATE delivery_point SET status_point = :status WHERE delivery_point_id = :delivery_point_id")
+            con.createQuery("UPDATE delivery_point " +
+                                    "SET status_point = :status " +
+                                    "WHERE delivery_point_id = :delivery_point_id")
                     .addParameter("status", status)
                     .addParameter("delivery_point_id", delivery_point_id)
                     .executeUpdate();
