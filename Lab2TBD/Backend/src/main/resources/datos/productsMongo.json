@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "67736a7a84576555f11256cf"
+  },
+  "product_name": "Televisor",
+  "description": "Televisor Sony",
+  "price": 500000,
+  "stock": 10,
+  "product_status": "Disponible",
+  "category_id": 1
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d0"
+  },
+  "product_name": "Refrigerador",
+  "description": "Refrigerador LG",
+  "price": 300000,
+  "stock": 5,
+  "product_status": "Disponible",
+  "category_id": 1
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d1"
+  },
+  "product_name": "Lavadora",
+  "description": "Lavadora LG",
+  "price": 400000,
+  "stock": 8,
+  "product_status": "Disponible",
+  "category_id": 1
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d2"
+  },
+  "product_name": "Plancha",
+  "description": "Plancha LG",
+  "price": 15000,
+  "stock": 20,
+  "product_status": "Disponible",
+  "category_id": 1
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d3"
+  },
+  "product_name": "Zapatillas",
+  "description": "Zapatillas Nike",
+  "price": 54500,
+  "stock": 30,
+  "product_status": "Disponible",
+  "category_id": 2
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d4"
+  },
+  "product_name": "Pelota",
+  "description": "Pelota de fútbol",
+  "price": 9000,
+  "stock": 15,
+  "product_status": "Disponible",
+  "category_id": 3
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d5"
+  },
+  "product_name": "Sofá",
+  "description": "Sofá de lujo",
+  "price": 50000,
+  "stock": 8,
+  "product_status": "Disponible",
+  "category_id": 4
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d6"
+  },
+  "product_name": "Agua",
+  "description": "Agua mineral",
+  "price": 500,
+  "stock": 25,
+  "product_status": "Disponible",
+  "category_id": 5
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d7"
+  },
+  "product_name": "Vino",
+  "description": "Vino tinto",
+  "price": 3000,
+  "stock": 15,
+  "product_status": "Disponible",
+  "category_id": 5
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d8"
+  },
+  "product_name": "Cerveza",
+  "description": "Corona",
+  "price": 2000,
+  "stock": 10,
+  "product_status": "Disponible",
+  "category_id": 5
+},
+{
+  "_id": {
+    "$oid": "67736a7a84576555f11256d9"
+  },
+  "product_name": "Purple Kush",
+  "description": "Fineza",
+  "price": 20000,
+  "stock": 5,
+  "product_status": "Disponible",
+  "category_id": 5
+}]

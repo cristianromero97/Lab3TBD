@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "6773741084576555f11256de"
+  },
+  "client_name": "Juan Perez",
+  "email": "jp@gmail.com",
+  "password": "123ahbz#2",
+  "phone_number": "+56987654321",
+  "home_location": 2,
+  "role": "ADMIN"
+},
+{
+  "_id": {
+    "$oid": "6773741084576555f11256df"
+  },
+  "client_name": "Maria Rodriguez",
+  "email": "maria@gmail.com",
+  "password": "456ahbz#2",
+  "phone_number": "+56987654350",
+  "home_location": 12,
+  "role": "ADMIN"
+},
+{
+  "_id": {
+    "$oid": "6773741084576555f11256e0"
+  },
+  "client_name": "Pedro Gomez",
+  "email": "pedro@gmail.com",
+  "password": "789ahbz#2",
+  "phone_number": "+56987667321",
+  "home_location": 23,
+  "role": "ADMIN"
+},
+{
+  "_id": {
+    "$oid": "6773741084576555f11256e1"
+  },
+  "client_name": "Ana Martinez",
+  "email": "ana@gmail.com",
+  "password": "123ahbz#2",
+  "phone_number": "+56984447321",
+  "home_location": 33,
+  "role": "CLIENT"
+},
+{
+  "_id": {
+    "$oid": "6773741084576555f11256e2"
+  },
+  "client_name": "Carlos Sanchez",
+  "email": "carlos@gmail.com",
+  "password": "456ahbz#2",
+  "phone_number": "+56987654891",
+  "home_location": 31,
+  "role": "CLIENT"
+}]
