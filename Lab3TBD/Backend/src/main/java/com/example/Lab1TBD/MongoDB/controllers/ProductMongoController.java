@@ -15,7 +15,7 @@ public class ProductMongoController {
     @Autowired
     private ProductMongoService productService;
 
-    @GetMapping
+    @GetMapping("/")
     public List<ProductMongo> getAllProducts() {
         return productService.getAllProducts();
     }
@@ -25,8 +25,13 @@ public class ProductMongoController {
         return productService.getProductById(id);
     }
 
-    @PostMapping
+    @PostMapping("/")
     public ProductMongo saveProduct(@RequestBody ProductMongo product) {
+        return productService.saveProduct(product);
+    }
+
+    @PutMapping("/")
+    public ProductMongo updateProduct(@RequestBody ProductMongo product) {
         return productService.saveProduct(product);
     }
 
@@ -35,6 +40,7 @@ public class ProductMongoController {
         productService.deleteProduct(id);
     }
 
+    /*
     @GetMapping("/image/{id}")
     public ResponseEntity<String> getProductImage(@PathVariable Long id) {
         try {
@@ -46,6 +52,6 @@ public class ProductMongoController {
         } catch (Exception e) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error al buscar la imagen.");
         }
-    }
+    }*/
 
 }

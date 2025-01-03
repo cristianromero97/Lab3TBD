@@ -10,5 +10,4 @@ public interface ProductMongoRepository extends MongoRepository<ProductMongo, Lo
     List<ProductMongo> findByProductName(String productName);
     List<ProductMongo> findByProductStatus(String productStatus);
     List<ProductMongo> findByCategoryId(int categoryId);
-    List<ProductMongo> findByProductImages(String productImage);
 }

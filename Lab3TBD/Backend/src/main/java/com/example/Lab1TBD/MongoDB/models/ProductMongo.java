@@ -18,7 +18,6 @@ public class ProductMongo {
     private int price;
     private int stock;
     private String productStatus;
-    private String images;
     private int categoryId; // MongoDB usa referencias simples (puedes mapear esto a una entidad Category manualmente si es necesario)
 }
 

@@ -42,9 +42,7 @@ public class OrderMongoController {
     @PostMapping("/")
     public ResponseEntity<OrderMongo> createOrder(@RequestBody OrderMongo orderEntity) {
         OrderMongo savedOrder = orderService.createOrder(orderEntity);
-        return savedOrder != null ?
-                ResponseEntity.status(HttpStatus.CREATED).body(savedOrder) :
-                ResponseEntity.status(HttpStatus.CONFLICT).build();
+        return ResponseEntity.ok(savedOrder);
     }
 
     // Actualizar una orden existente.

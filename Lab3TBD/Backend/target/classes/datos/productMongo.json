@@ -1,132 +1,89 @@
 [{
   "_id": {
-    "$oid": "67736a7a84576555f11256cf"
+    "$oid": "6773741084576555f11256d1"
   },
-  "product_name": "Televisor",
-  "description": "Televisor Sony",
-  "price": 500000,
-  "stock": 10,
-  "product_status": "Disponible",
-  "category_id": 1,
-  "images": "https://resources.claroshop.com/medios-plazavip/s2/13071/1646140/5f4689c0cb149-3-1600x1600.jpg"
+  "id": 1,
+  "imageUrl": "https://resources.claroshop.com/medios-plazavip/s2/13071/1646140/5f4689c0cb149-3-1600x1600.jpg",
+  "productId": 1
 },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d0"
+      "$oid": "6773741084576555f11256d2"
     },
-    "product_name": "Refrigerador",
-    "description": "Refrigerador LG",
-    "price": 300000,
-    "stock": 5,
-    "product_status": "Disponible",
-    "category_id": 1,
-    "images": "https://th.bing.com/th/id/OIP.2GDhixDNyQt8lYTuJEJW1wHaHa?rs=1&pid=ImgDetMain"
+    "id": 2,
+    "imageUrl": "https://th.bing.com/th/id/OIP.2GDhixDNyQt8lYTuJEJW1wHaHa?rs=1&pid=ImgDetMain",
+    "productId": 2
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d1"
+      "$oid": "6773741084576555f11256d3"
     },
-    "product_name": "Lavadora",
-    "description": "Lavadora LG",
-    "price": 400000,
-    "stock": 8,
-    "product_status": "Disponible",
-    "category_id": 1,
-    "images": "https://www.lg.com/es/images/lavado-y-secado/md07516576/gallery/10_Vivace_VC5_9kg_White_F4V3VYP3WE_English_Left-min.jpg"
+    "id": 3,
+    "imageUrl": "https://www.lg.com/es/images/lavado-y-secado/md07516576/gallery/10_Vivace_VC5_9kg_White_F4V3VYP3WE_English_Left-min.jpg",
+    "productId": 3
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d2"
+      "$oid": "6773741084576555f11256d4"
     },
-    "product_name": "Plancha",
-    "description": "Plancha LG",
-    "price": 15000,
-    "stock": 20,
-    "product_status": "Disponible",
-    "category_id": 1,
-    "images": "https://th.bing.com/th/id/OIP.7oxGaL5J2kSRqo1yCMaCHgAAAA?rs=1&pid=ImgDetMain"
+    "id": 4,
+    "imageUrl": "https://th.bing.com/th/id/OIP.7oxGaL5J2kSRqo1yCMaCHgAAAA?rs=1&pid=ImgDetMain",
+    "productId": 4
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d3"
+      "$oid": "6773741084576555f11256d5"
     },
-    "product_name": "Zapatillas",
-    "description": "Zapatillas Nike",
-    "price": 54500,
-    "stock": 30,
-    "product_status": "Disponible",
-    "category_id": 2,
-    "images": "https://www.tennis-point.es/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ed2d1f1/images/004/149/15554000_0_1.jpg?q=80&sw=2000"
+    "id": 5,
+    "imageUrl": "https://www.tennis-point.es/dw/image/v2/BBDP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ed2d1f1/images/004/149/15554000_0_1.jpg?q=80&sw=2000",
+    "productId": 5
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d4"
+      "$oid": "6773741084576555f11256d6"
     },
-    "product_name": "Pelota",
-    "description": "Pelota de fútbol",
-    "price": 9000,
-    "stock": 15,
-    "product_status": "Disponible",
-    "category_id": 3,
-    "images": "https://th.bing.com/th/id/R.dccc7ecf6ace638c535a76fe841bdf20?rik=vfRRll%2fpPobKyg&riu=http%3a%2f%2fwww.regaloempresas.com%2fproductosg%2falta%2f19544168.JPG&ehk=9ZvyeI7OcGnT5RmIizVKeagC66Eo7M6fdyJjIHKxNL8%3d&risl=&pid=ImgRaw&r=0"
+    "id": 6,
+    "imageUrl": "https://th.bing.com/th/id/R.dccc7ecf6ace638c535a76fe841bdf20?rik=vfRRll%2fpPobKyg&riu=http%3a%2f%2fwww.regaloempresas.com%2fproductosg%2falta%2f19544168.JPG&ehk=9ZvyeI7OcGnT5RmIizVKeagC66Eo7M6fdyJjIHKxNL8%3d&risl=&pid=ImgRaw&r=0",
+    "productId": 6
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d5"
+      "$oid": "6773741084576555f11256d7"
     },
-    "product_name": "Sofá",
-    "description": "Sofá de lujo",
-    "price": 50000,
-    "stock": 8,
-    "product_status": "Disponible",
-    "category_id": 4,
-    "images": "https://i5.walmartimages.com/asr/ac3c8180-1915-4c7b-87c9-e70d0d769776.cd01a9a4cafb583826269df09cb3cbe1.jpeg"
+    "id": 7,
+    "imageUrl": "https://i5.walmartimages.com/asr/ac3c8180-1915-4c7b-87c9-e70d0d769776.cd01a9a4cafb583826269df09cb3cbe1.jpeg",
+    "productId": 7
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d6"
+      "$oid": "6773741084576555f11256d8"
     },
-    "product_name": "Agua",
-    "description": "Agua mineral",
-    "price": 500,
-    "stock": 25,
-    "product_status": "Disponible",
-    "category_id": 5,
-    "images": "https://folder.es/41611-large_default/caja-de-35-botellas-de-agua-nestle-aquarel-033l.jpg"
+    "id": 8,
+    "imageUrl": "https://folder.es/41611-large_default/caja-de-35-botellas-de-agua-nestle-aquarel-033l.jpg",
+    "productId": 8
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d7"
+      "$oid": "6773741084576555f11256d9"
     },
-    "product_name": "Vino",
-    "description": "Vino tinto",
-    "price": 3000,
-    "stock": 15,
-    "product_status": "Disponible",
-    "category_id": 5,
-    "images": "https://th.bing.com/th/id/R.c609ab46b9bab8a14ccf700dc3d3b329?rik=oE5%2fhdErrCvGBA&pid=ImgRaw&r=0"
+    "id": 9,
+    "imageUrl": "https://th.bing.com/th/id/R.c609ab46b9bab8a14ccf700dc3d3b329?rik=oE5%2fhdErrCvGBA&pid=ImgRaw&r=0",
+    "productId": 9
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d8"
+      "$oid": "6773741084576555f11256da"
     },
-    "product_name": "Cerveza",
-    "description": "Corona",
-    "price": 2000,
-    "stock": 10,
-    "product_status": "Disponible",
-    "category_id": 5,
-    "images": "https://images-na.ssl-images-amazon.com/images/I/81kqM9XjenL._AC_SL1500_.jpg"
+    "id": 10,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81kqM9XjenL._AC_SL1500_.jpg",
+    "productId": 10
   },
   {
     "_id": {
-      "$oid": "67736a7a84576555f11256d9"
+      "$oid": "6773741084576555f11256db"
     },
-    "product_name": "Purple Kush",
-    "description": "Fineza",
-    "price": 20000,
-    "stock": 5,
-    "product_status": "Disponible",
-    "category_id": 5,
-    "images": "https://th.bing.com/th/id/OIP.MZVsnNLKwFSNRSpCfmgAFQAAAA?w=400&h=400&rs=1&pid=ImgDetMain"
+    "id": 11,
+    "imageUrl": "https://th.bing.com/th/id/OIP.MZVsnNLKwFSNRSpCfmgAFQAAAA?w=400&h=400&rs=1&pid=ImgDetMain",
+    "productId": 11
   }]
+

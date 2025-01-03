@@ -1,5 +1,6 @@
 package com.example.Lab1TBD.MongoDB.services;
 
+import com.example.Lab1TBD.persistence.entities.ProductEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.Lab1TBD.MongoDB.models.ProductMongo;
@@ -32,8 +33,4 @@ public class ProductMongoService {
         productMongoRepository.deleteById(id);
     }
 
-    // conseguir imagen
-    public List<ProductMongo> getProductByImages(String images) {
-        return productMongoRepository.findByProductImages(images);
-    }
 }
